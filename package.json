@@ -1,0 +1,27 @@
+{
+  "name": "vstream-storage-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeGalette/vstream-storage-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeGalette/vstream-storage-service/issues"
+  },
+  "homepage": "https://github.com/LeGalette/vstream-storage-service#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.15.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ibm-cos-sdk": "^1.10.2"
+  }
+}
